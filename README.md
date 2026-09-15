@@ -20,7 +20,7 @@ Asistente de inteligencia artificial personal para Windows. Combina reconocimien
 
 ##  Instalación
 
-Descarga el último instalador desde [Releases](link) y ejecútalo. No requiere configuración adicional.
+Descarga el último instalador desde [Releases] https://github.com/KaiGlyph/Eco/releases/tag/v1.1.0 y ejecútalo. No requiere configuración adicional.
 
 ## 🚀 Desarrollo
 
