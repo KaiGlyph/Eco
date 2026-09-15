@@ -1,0 +1,84 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #6A0DAD;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(106, 13, 173, 0.5);
+}
+
+.chat {
+  flex: 1;
+  border: 1px solid #6A0DAD;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: 500px;
+  background: #0a0a0a;
+}
+
+.message {
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+  border-radius: 8px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.message.user {
+  background: #1A0033;
+  border-left: 4px solid #6A0DAD;
+  margin-left: 2rem;
+}
+
+.message.eco {
+  background: #0d001a;
+  border-right: 4px solid #FFD700;
+  margin-right: 2rem;
+}
+
+.message.status {
+  background: transparent;
+  color: #888;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.message.user .label {
+  color: #B8A5D6;
+}
+
+.message.eco .label {
+  color: #FFD700;
+}
+
+.text {
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

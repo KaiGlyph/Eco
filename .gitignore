@@ -1,0 +1,33 @@
+﻿# Credenciales y secretos (CRÍTICO)
+backend/plugins/calendar/credentials.json
+backend/plugins/calendar/token.json
+backend/.env
+*.pem
+*.key
+
+# Archivos de audio y cámara generados
+backend/audio_files/
+backend/camera_files/
+
+# Modelos y binarios grandes (>100MB)
+*.gguf
+*.bin
+*.msi
+*.exe
+
+# Entornos virtuales y caché
+venv_*/
+__pycache__/
+*.pyc
+node_modules/
+
+# Carpetas de compilación
+frontend/dist/
+frontend/src-tauri/target/
+frontend/src-tauri/resources/
+backend/dist/
+backend/build/
+
+# Datos de usuario locales
+backend/data/*.json
+backend/data/*.pkl

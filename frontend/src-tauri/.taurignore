@@ -1,0 +1,39 @@
+# Entorno virtual de Python (NO incluir)
+venv/
+.venv/
+env/
+
+# Archivos de Git (NO incluir)
+.git/
+.gitignore
+
+# Caché de Python (NO incluir)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# whisper.cpp (NO incluir - es demasiado grande)
+whisper.cpp/
+
+# Node modules (NO incluir)
+node_modules/
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,19 @@
+[package]
+name = "eco-asistente"
+version = "1.2.0"
+description = "Asistente IA Personal Avanzado"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "eco_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0", features = [] }
+tauri-plugin-opener = "2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
